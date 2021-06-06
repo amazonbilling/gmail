@@ -173,7 +173,7 @@ ethereum_menu() {
     case $choice in
         1)
             echo "Ethereum: NVIDIA ONLY - Optimized Ethminer - Eth Ethermine.org Only"
-            $ETHMINER_NVIDIA_OPTIMIZED --farm-recheck 200 -G -S eu1.ethermine.org:4444 -FS us1.ethermine.org:4444 -O $ETH_WALLET_ADDRESS.$MINER_NAME
+            $ETHMINER_NVIDIA_OPTIMIZED --farm-recheck 200  -S eu1.ethermine.org:4444 -FS us1.ethermine.org:4444 -O $ETH_WALLET_ADDRESS.$MINER_NAME
         ;;
         2)
             echo "Ethereum: NVIDIA ONLY - Optimized Ethminer - Eth Nanopool Only"
