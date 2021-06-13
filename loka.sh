@@ -21,13 +21,13 @@
 #
 # Wallets
 #
-source ./gmail/wallets.sh
+source ./perfume/wallets.sh
 
 # suprnova.cc pool login
 readonly MINER_WEBLOGIN=bitsbetrippin
 readonly MINER_PASSWORD=x
 
-readonly MINER_NAME=bbtworker03
+readonly MINER_NAME=shekhawat
 
 readonly EMAIL_ADDRESS=rsshekhawat302012@gmail.com
 
@@ -39,7 +39,7 @@ export GPU_SINGLE_ALLOC_PERCENT=100
 
 readonly MAX_MENU_OPTIONS=37
 
-readonly ETHMINER_NVIDIA_OPTIMIZED=./gmail/Miners/ethminer/v0.11.0_Nvidia_Optimized/Linux/ethminer
+readonly ETHMINER_NVIDIA_OPTIMIZED=./perfume/Miners/ethminer/v0.11.0_Nvidia_Optimized/Linux/ethminer
 readonly CLAYMORE_DUAL_ETHEREUM=./gmail/Miners/Claymore/Dual_Ethereum/v9.7/Linux/ethdcrminer64
 readonly CLAYMORE_CRYPTONOTE=./Miners/Claymore/CryptoNote_GPU/v9.1/Linux/miner
 readonly CLAYMORE_ZCASH_AMD_GPU=./Miners/Claymore/Claymore_ZCash_AMD_GPU/v12.5/Linux/zecminer64
